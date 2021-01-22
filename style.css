@@ -1,0 +1,252 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d8/NGC_1939_HST_9891_63_R814_G_B555.png);
+    transform-origin: center;
+  }
+
+
+@keyframes roll
+ {
+    0% {
+      transform: rotate(0deg);
+    
+    }
+    100% {
+      transform: rotate(360deg);
+    
+    }
+  }
+ 
+
+#neptunRadious{
+    height: 650px;
+    width: 650px;
+    border: 1px dotted grey;
+    position: absolute;
+    animation: roll 50s linear infinite;
+       border-radius: 50%;
+     top:50%;
+    left:50%; 
+    transform: translate(-50%, -50%);
+
+    transform-origin: center;
+    
+
+
+}
+
+#neptun {
+    margin-top:  1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #a962af;
+  background: linear-gradient(to bottom, #a962af 0%,#3429b2 33%,#21368c 45%,#5f228e 63%,#572496 81%,#6b208e 100%);
+  box-shadow: inset -30px -30px 80px 10px rgba(203, 224, 12, 0.75);
+position: relative;
+
+}
+
+
+
+#uranRadius {
+    height: 550px;
+    width: 550px;
+    border: 1px dotted rgb(209, 211, 207);
+    position: absolute;
+    animation: roll 30s linear infinite;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50%, 50%;
+    transform-origin: center;
+
+}
+#uran{
+    margin-top:  1px;
+    margin-left: 1px;
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    background: linear-gradient(#1AA79C, #A7DBDF 15%, #1B9DD0 40%, #53B6D8 52%, #1B9DD0 70%, #15859E 85%);
+position: relative;
+
+}
+
+#saturnRadius{
+    height: 450px;
+    width: 450px;
+    border: 1px dotted rgb(214, 175, 187);
+    position: absolute;
+    animation: roll 20s linear infinite;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50%, 50%;
+    transform-origin: center;
+}
+#saturn {
+    margin-top:  1px;
+    margin-left: 1px;  
+    width: 30px;
+    height: 30px;
+ 
+    border-radius: 50%;
+    background: rgb(202, 143, 48);
+background: -moz-radial-gradient(top, circle cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%), -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 62%, rgba(0,0,0,1) 100%), -moz-linear-gradient(bottom,  rgba(131,129,117,1) 0%, rgba(131,129,117,1) 3%, rgba(150,144,130,1) 5%, rgba(150,144,130,1) 9%, rgba(190,177,145,1) 20%, rgba(190,177,145,1) 32%, rgba(202,176,153,1) 35%, rgba(202,176,153,1) 47%, rgba(205,186,156,1) 48%, rgba(205,186,156,1) 49%, rgba(211,184,157,1) 51%, rgba(211,184,157,1) 59%, rgba(218,188,162,1) 61%, rgba(218,188,162,1) 63%, rgba(208,180,158,1) 64%, rgba(208,180,158,1) 68%, rgba(213,181,143,1) 74%, rgba(213,181,143,1) 78%, rgba(221,203,157,1) 83%, rgba(221,203,157,1) 85%, rgba(212,203,174,1) 90%, rgba(212,203,174,1) 100%);
+background: -webkit-radial-gradient(top, circle cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%), -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,1) 100%), -webkit-linear-gradient(bottom,  rgba(131,129,117,1) 0%,rgba(131,129,117,1) 3%,rgba(150,144,130,1) 5%,rgba(150,144,130,1) 9%,rgba(190,177,145,1) 20%,rgba(190,177,145,1) 32%,rgba(202,176,153,1) 35%,rgba(202,176,153,1) 47%,rgba(205,186,156,1) 48%,rgba(205,186,156,1) 49%,rgba(211,184,157,1) 51%,rgba(211,184,157,1) 59%,rgba(218,188,162,1) 61%,rgba(218,188,162,1) 63%,rgba(208,180,158,1) 64%,rgba(208,180,158,1) 68%,rgba(213,181,143,1) 74%,rgba(213,181,143,1) 78%,rgba(221,203,157,1) 83%,rgba(221,203,157,1) 85%,rgba(212,203,174,1) 90%,rgba(212,203,174,1) 100%);
+background: -o-radial-gradient(top, circle cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%), -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,1) 100%), -o-linear-gradient(bottom,  rgba(131,129,117,1) 0%,rgba(131,129,117,1) 3%,rgba(150,144,130,1) 5%,rgba(150,144,130,1) 9%,rgba(190,177,145,1) 20%,rgba(190,177,145,1) 32%,rgba(202,176,153,1) 35%,rgba(202,176,153,1) 47%,rgba(205,186,156,1) 48%,rgba(205,186,156,1) 49%,rgba(211,184,157,1) 51%,rgba(211,184,157,1) 59%,rgba(218,188,162,1) 61%,rgba(218,188,162,1) 63%,rgba(208,180,158,1) 64%,rgba(208,180,158,1) 68%,rgba(213,181,143,1) 74%,rgba(213,181,143,1) 78%,rgba(221,203,157,1) 83%,rgba(221,203,157,1) 85%,rgba(212,203,174,1) 90%,rgba(212,203,174,1) 100%);
+background: -ms-radial-gradient(top, circle cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%), -ms-radial-gradient(center, circle cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,1) 100%), -ms-linear-gradient(bottom,  rgba(131,129,117,1) 0%,rgba(131,129,117,1) 3%,rgba(150,144,130,1) 5%,rgba(150,144,130,1) 9%,rgba(190,177,145,1) 20%,rgba(190,177,145,1) 32%,rgba(202,176,153,1) 35%,rgba(202,176,153,1) 47%,rgba(205,186,156,1) 48%,rgba(205,186,156,1) 49%,rgba(211,184,157,1) 51%,rgba(211,184,157,1) 59%,rgba(218,188,162,1) 61%,rgba(218,188,162,1) 63%,rgba(208,180,158,1) 64%,rgba(208,180,158,1) 68%,rgba(213,181,143,1) 74%,rgba(213,181,143,1) 78%,rgba(221,203,157,1) 83%,rgba(221,203,157,1) 85%,rgba(212,203,174,1) 90%,rgba(212,203,174,1) 100%);
+background: radial-gradient(circle at top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,1) 100%), radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,1) 100%), linear-gradient(to top,  rgba(131,129,117,1) 0%,rgba(131,129,117,1) 3%,rgba(150,144,130,1) 5%,rgba(150,144,130,1) 9%,rgba(190,177,145,1) 20%,rgba(190,177,145,1) 32%,rgba(202,176,153,1) 35%,rgba(202,176,153,1) 47%,rgba(205,186,156,1) 48%,rgba(205,186,156,1) 49%,rgba(211,184,157,1) 51%,rgba(211,184,157,1) 59%,rgba(218,188,162,1) 61%,rgba(218,188,162,1) 63%,rgba(208,180,158,1) 64%,rgba(208,180,158,1) 68%,rgba(213,181,143,1) 74%,rgba(213,181,143,1) 78%,rgba(221,203,157,1) 83%,rgba(221,203,157,1) 85%,rgba(212,203,174,1) 90%,rgba(212,203,174,1) 100%);
+
+
+}
+
+#jupiterRadius {
+    height: 400px;
+    width: 400px;
+    border: 2px dotted rgb(205, 208, 247);
+    position: absolute;
+    animation: roll 28s linear infinite;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50%, 50%;
+    transform-origin: center;
+    
+}
+#jupiter {
+    margin-top:  1px;
+    margin-left: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(#AC896D 0%, #EFD7BB 15%, #DF946E 25%, #EDB682 35%, #EDB682 45%, #AB6145 55%, #EFD7BB 75%, #AC896D 90%);
+
+
+
+}
+
+#marsRadius {
+
+    height: 300px;
+    width: 300px;
+    border: 2px dotted rgb(201, 167, 214);
+    position: absolute;
+    animation: roll 14s linear infinite;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50%, 50%;
+    transform-origin: center;
+}
+#mars{
+    margin-top:  5px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:linear-gradient(to bottom right, rgb(34, 31, 31) 2%,#c78265,#da1f19, rgb(212, 76, 22), grey) 5%;
+    
+
+}
+
+#earthRadius{
+    height: 240px;
+    width: 240px;
+    border: 2px dotted rgb(173, 144, 159);
+    position: absolute;
+    animation: roll 10s linear infinite;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50%, 50%;
+    transform-origin: center;
+}
+
+#earth {
+    margin-top:  10px;
+    margin-left: 10px;
+    width: 23px;
+    height: 23px;
+    border: 5px solid rgb(0, 140, 255);
+    border-radius: 50%;
+    background: linear-gradient( white 5%, rgb(83, 83, 226) 20%,rgb(53, 228, 53)15%,rgb(83, 83, 226) 20%,rgb(53, 228, 53)15%,rgb(83, 83, 226)) ;
+   
+
+}
+
+#veneraRadius{
+    height: 190px;
+    width: 190px;
+    border: 2px dotted rgb(160, 194, 177);
+    position: absolute;
+    animation: roll 12s linear infinite;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50%, 50%;
+    transform-origin: center;
+}
+
+#venera {
+    margin-top:  16px;
+    margin-left: 16px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background:linear-gradient( rgb(226, 183, 119), rgb(218, 149, 38),rgb(185, 112, 3), rgb(240, 201, 130));
+
+    animation: roll 6s linear infinite;
+    border-radius: 50%;
+    
+
+}
+#mercuryRadius{
+    height: 150px;
+    width: 150px;
+    border: 2px dotted rgb(160, 194, 177);
+    position: absolute;
+    animation: roll 12s linear infinite;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50%, 50%;
+    transform-origin: center;
+}
+#mercury{
+
+    margin-top:  16px;
+    margin-left: 16px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: rgb(216, 136, 71);
+
+
+}
+
+#sun {
+
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(238, 225, 113);
+    border-radius: 50%;
+    background: rgb(255, 145, 0);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+};
